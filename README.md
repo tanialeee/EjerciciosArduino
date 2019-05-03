@@ -18,4 +18,6 @@ Pasos a seguir:
 2. Verificamos y subimos el codigo a usar mediante Arduino Ide.
 4. Conectamos los 3 led a los pines adecuados(D13,D12,D11,GND).
 5. Modificamos el codigo para hacer que las luces fueran a más velocidad.
-5. Los leds empezaron a parpadear de forma consecutiva.
+6. Los leds empezaron a parpadear de forma consecutiva.
+7. Mejoramos el codigo y generamos tres versiones nuevas a partir de la que ya teníamos.
+
