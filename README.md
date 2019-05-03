@@ -21,3 +21,11 @@ Pasos a seguir:
 6. Los leds empezaron a parpadear de forma consecutiva.
 7. Mejoramos el codigo y generamos tres versiones nuevas a partir de la que ya teníamos.
 
+
+# Practica 3: Encender y apagar 4 leds de forma consecutiva con sonido.
+---------
+Pasos a seguir:
+1. Conectamos el Arduino nano mediante un cable usb al ordenador.
+2. Verificamos y subimos el codigo a usar mediante Arduino Ide.
+3. Conectamos 4 leds y un buzzer al Arduino Nano en los pines(leds:D13,D12,D11,D10 --- buzzer:D9,5V).
+4. Hicimos un código para encender los leds de forma consecutiva y al encenderse el ultimo led que sonase el buzzer.
