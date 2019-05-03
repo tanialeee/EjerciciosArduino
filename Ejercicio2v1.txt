@@ -1,0 +1,29 @@
+#define INICIAL 100
+#define INCREMENTO 5
+int tiempo;
+
+void setup() {
+ tiempo=INICIAL;
+
+  for ( int i = 11 ; i <= 13 ; i++)
+  {
+    pinMode(i, OUTPUT);
+  }
+
+}
+
+
+void loop() {
+  tiempo-=INCREMENTO;
+  if(tiempo<0){
+    tiempo=INICIAL;
+  }
+  
+  for (int i=11 ; i <= 13 ; i++)
+  {
+       digitalWrite( i , HIGH) ;
+       delay (tiempo) ;
+       digitalWrite( i , LOW);
+       delay (tiempo) ;
+  }
+}
