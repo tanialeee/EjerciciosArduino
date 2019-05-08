@@ -1,0 +1,27 @@
+
+#include <Servo.h> 
+
+Servo servo;
+
+const int pinBoton = 2;
+int angulo;
+int estadoBoton = 0;
+
+void setup() 
+{ 
+  servo.attach(9);
+  pinMode(pinBoton, INPUT);       
+} 
+
+void loop() 
+{ 
+  estadoBoton = digitalRead(pinBoton);
+  if (estadoBoton == HIGH) {     
+    angulo = 90;  
+  } 
+  else {
+    angulo = 0;
+  }
+  servo.write(angulo);
+  delay(15);
+}
