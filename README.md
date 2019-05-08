@@ -52,3 +52,13 @@ Pasos a seguir:
 7. Pulsamos el pulsador y vemos como el servo se mueve.
 
 
+# Practica 6:  Sensor de proximidad.
+---------
+Pasos a seguir:
+1. Investigamos como hacer lo que se nos propone.
+2. Creamos el codigo y lo simulamos en tinkercad y comprobamos que funciona.
+4. Conectamos el Arduino Nano mediante un cable usb al odenador.
+5. Conectamos el sensor de proximidad al Arduino Nano en los pines(5V,D12,D11,GND),un Led y una Resistencia guiandonos por la simulacion anteriormente hecha.
+6. Verificamos y subimos el codigo mediante Arduino IDE.
+7. Comprobamos que el led se mantiene apagado y que en el momento que acercamos la mano u otro objecto a la distancia indicada,el sensor lo detectará y se encenderá el led.
+
