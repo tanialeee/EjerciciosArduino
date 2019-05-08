@@ -38,3 +38,17 @@ Pasos a seguir:
 2. Conectamos el servo al Arduino Nano en los pines(señal: D9,potencia:+5v,tierra:GND).
 3.Verificamos y subimos el codigo a usar mediante Arduino Ide.
 4.Ponemos a funcionar el servo.
+
+
+# Practica 5: Mover un servo motor con el código mejorado.
+---------
+Pasos a seguir:
+1. Entramos en la página de ayuda que nos facilita el profesor.
+2. Investigamos como hacer lo que se nos propone.
+3. Creamos el codigo y lo simulamos en tinkercad y comprobamos que funciona.
+4. Conectamos el Arduino Nano mediante un cable usb al odenador.
+5. Conectamos el servo al Arduino Nano en los pines(Señal:D9,Potencia:+5V,Tierra:GND) y el pulsador(D2,+5v,GND)guiandonos por la simulacion anteriormente hecha.
+6. Verificamos y subimos el codigo mediante Arduino IDE.
+7. Pulsamos el pulsador y vemos como el servo se mueve.
+
+
