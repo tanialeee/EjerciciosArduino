@@ -62,3 +62,12 @@ Pasos a seguir:
 6. Verificamos y subimos el codigo mediante Arduino IDE.
 7. Comprobamos que el led se mantiene apagado y que en el momento que acercamos la mano u otro objecto a la distancia indicada,el sensor lo detectará y se encenderá el led.
 
+# Practica Optativa 
+# Practica 2 :  Sensor de proximidad.
+---------
+Pasos a seguir:
+1. Investigamos como hacer lo que se nos propone.
+2.Conectamos un buzzer a los pines(D9/GND) y tres leds(D8,D7,D6).
+3. Creamos el codigo para que se encienda un led con cada nota de la cancion.
+4.Probamos el codigo mediante Arduino IDE y comprobamos que funciona.
+
